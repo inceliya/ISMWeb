@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблицы</title>
+    <style>
+        table {border: 1px solid gray;}
+        th {border: 1px solid grey;}
+        td {border: 1px solid grey;}
+    </style>
+</head>
+<body>
+
+<table border="1px" width="500">
+    <tr>
+        <td colspan="2" rowspan="3" style="text-align: center">1</td>
+        <td colspan="2" style="text-align: center">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align: center">4</td>
+    </tr>
+    <tr>
+        <td rowspan="5" style="text-align: center">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td colspan="2" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table width="500">
+    <colgroup>
+        <col span ="1" style="background: aqua">
+        <col span ="3" style="background-color: Khaki">
+    </colgroup>
+    <tr>
+        <th>№</th>
+        <th>Прізвище</th>
+        <th>Ім'я</th>
+        <th>По батькові</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <td>Захарчук</td>
+        <td>Максим</td>
+        <td>Сергіович</td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td>Кравченко</td>
+        <td>Роман</td>
+        <td>Романович</td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td>Броварський</td>
+        <td>Костянтин</td>
+        <td>Валерійович</td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <td>Волинець</td>
+        <td>Богдан</td>
+        <td>Ярославович</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table width="500">
+    <colgroup>
+        <col span="1" style="background-color: blue">
+        <col span="3" style="background-color: darkgray">
+    </colgroup>
+    <tr style="background-color: yellow">
+        <th>№</th>
+        <th>ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>111111</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>222222</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>333333</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>444444</td>
+    </tr>
+    <tr style="background-color: green">
+        <td colspan="3" style="text-align: right">Загальна кілкість</td>
+        <td>4</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table width="500" border="1px">
+    <tr>
+        <th rowspan="2">номер</th>
+        <th colspan="2">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значение</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>d</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблица</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд таблицы</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table width="100%">
+    <tr>
+        <th colspan="5" style="background-color: blue;color: darkorange; text-align: -moz-left" height="150">Шапка</th>
+    </tr>
+    <tr>
+        <td style="text-align: center;background-color: mistyrose; border: brown" height="50">Меню</td>
+        <td style="text-align: center;background-color: mistyrose; border: brown">Меню</td>
+        <td style="text-align: center;background-color: mistyrose; border: brown">Меню</td>
+        <td style="text-align: center;background-color: mistyrose; border: brown">Меню</td>
+        <td style="text-align: center;background-color: mistyrose; border: brown">Меню</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color: blue; color: floralwhite" height="300">Новости</td>
+        <td colspan="3" style="background-color: mistyrose; color: black" height="300">Контент</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table width="100%">
+    <tr>
+        <th style="background-color: green; color: khaki; text-align: center" width="80%" height="150">Шапка</th>
+        <th rowspan="2" style="background-color: yellow; text-align: center" width="20%" height="500">Меню</th>
+    </tr>
+    <tr>
+        <td style="background-color: lightgrey">Контент</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background-color: green; color: khaki" height="50">Низ сайта</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table width="100%">
+    <tr>
+        <th rowspan="3" style="color: whitesmoke; background-color: blueviolet; text-align: center" height="500" width="30%">Новости</th>
+        <th width="70%" height="150" style="text-align: left; background-color: darkorchid; color: indigo">Шапка</th>
+    </tr>
+    <tr>
+        <td height="50" style="color: indigo; background-color: mistyrose">Меню</td>
+    </tr>
+    <tr>
+        <td style="color: indigo; background-color: floralwhite">Контент</td>
+    </tr>
+</table>
+
+</body>
+</html>
