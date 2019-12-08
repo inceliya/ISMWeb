@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgba(0,0,0,0.11);
+   line-height: 35px;
+    height: 50px;
+    font-size: 18px;
+}
+header nav{
+    display: inline-block;
+}
+a:hover{
+    color: black;
+}
+a{
+    padding: 5px;
+    display: inline-block;
+    transition-duration: 500ms;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+header ul{
+    float: left;
+}
+header .login {
+    float: right;
+    padding-right: 10px;
+}
+
+header div{
+    horiz-align: center;
+}
+
+.login a{
+    padding-right: 10px;
+    horiz-align: center;
+}
+
+header li{
+    display: inline-block;
+}
+
+button{
+    color: white;
+    font-weight: 600;
+    background-color: dodgerblue;
+    border: none;
+    padding: 0.5em 1em;
+    transition-duration: 500ms;
+}
+button:hover{
+    background-color: #0058ff;
+}
+header ul{
+    margin: 0px;
+}
+
+
+main{
+    padding: 10px 100px;
+    line-height: 1.5em;
+}
+
+main .begin{
+    margin: 10px;
+   padding: 10px;
+    border-bottom: 3px solid rgba(0,0,0,0.16);
+    display: flex;
+    /*align-items: center;*/
+}
+.text h1{
+    padding: 0;
+    margin: 10px;
+    font-size: 64px;
+    line-height:64px;
+    font-weight: 400;
+}
+.text{
+    width: 50%;
+    float: left;
+    margin: 10px;
+}
+.text p{
+    color: rgba(0, 0, 0, 0.71);
+}
+main .begin img, .form{
+    width: 25%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+main .begin form{
+    background-color: rgba(0,0,0,0.11);
+    border: 3px solid rgba(0,0,0,0.16);
+    padding: 10px;
+    margin: 10px;
+}
+
+form button{
+    margin-top: 5px;
+}
+
+form button, label, input{
+   /* height: 20%;
+    width: 100%;*/
+}
+
+
+
+.more{
+    background-color: white;
+    font-weight: 600;
+    color: dodgerblue;
+    width: 100%;
+    border: 1px solid dodgerblue;
+    padding: 0.7em ;
+    transition-duration: 500ms;
+}
+
+.more:hover{
+    background-color:  rgba(0,0,0,0.11);
+}
+footer{
+    font-size: 16px;
+}
+footer ul{
+    list-style: none;
+    font-size: 18px;
+}
+
+.lists{
+    background-color: rgba(0,0,0,0.11);
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    border-color: rgba(0,0,0,0.16);
+    display: flex;
+}
+.lists ul{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+ footer li{
+    padding: 5px;
+}
+
+.horizontal ul{
+    float: left;
+    padding-left: 150px;
+    margin: 0px;
+}
+.horizontal li{
+    display: inline-block;
+}
+
+.horizontal p{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    padding-right: 120px;
+}
+footer{
+    clear: both;
+}
+
