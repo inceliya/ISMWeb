@@ -86,13 +86,23 @@ main .begin{
 .text p{
     color: rgba(0, 0, 0, 0.71);
 }
-main .begin img, .form{
+
+
+main .begin .img, .form{
     width: 25%;
     float: left;
     padding: 10px;
     margin: 10px;
 }
 
+main .begin img{
+    width: 100%;
+}
+
+
+.begin form{
+    width: 100%;
+}
 main .begin form{
     background-color: rgba(0,0,0,0.11);
     border: 3px solid rgba(0,0,0,0.16);
@@ -100,13 +110,66 @@ main .begin form{
     margin: 10px;
 }
 
+.begin form{
+    horiz-align: center;
+}
+
 form button{
     margin-top: 5px;
 }
 
 form button, label, input{
-   /* height: 20%;
-    width: 100%;*/
+
+}
+
+h2{
+    padding: 10px;
+    margin: 10px;
+    font-weight: 400;
+}
+.content{
+    float: bottom;
+}
+
+.content ul{
+    list-style: none;
+}
+
+.content img{
+    width: 250px;
+}
+
+.content .img{
+    text-align: center;
+}
+
+.content li{
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid rgba(0,0,0,0.16);
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.content .heading{
+    float: top;
+}
+
+.content a{
+    color: black;
+}
+
+.content a:hover{
+    background-color: rgba(0,0,0,0.35);
+}
+
+.content .caption, .heading{
+    font-size: 18px;
+}
+
+.content .description{
+    color: rgba(0, 0, 0, 0.6);
 }
 
 
@@ -144,6 +207,10 @@ footer ul{
     width: 25%;
     box-sizing: border-box;
     padding: 10px;
+}
+
+.lists ul li img{
+    width: 15px;
 }
 
  footer li{
